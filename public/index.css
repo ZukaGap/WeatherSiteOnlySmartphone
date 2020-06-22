@@ -1,0 +1,11 @@
+body,
+html {
+    background-color: #559bf5;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    width: 100%;
+    overflow: hidden;
+}

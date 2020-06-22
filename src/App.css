@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dayhours {
+  width: 100%;
+  height: 200px;
+  border-radius: 25px 0 0 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 40px 25px;
+  background-color: #76affd;
+  overflow-x: scroll;
+}
+
+.dayhours  > .hourly {
+  margin-left: 15px;
+}
+
+.dayhours  > .hourly:first-child {
+  margin-left: 30px;
+}
+
+.header {
+  margin: 2vh 40px;
+}
+
+.header h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 32px;
+}
+
+.header p {
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.todayWeather {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10vh 0;
+}
+
+.todayWeather__prognos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.todayWeather__prognos img {
+  margin: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.todayWeather__prognos p {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.todayWeather h2 {
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.today_moredays {
+  margin: 5vh 40px 25px;
+}
+
+.today_moredays a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.today_moredays a:checked {
+  background-color: transparent;
+}
+
+.today_moredays a:first-child {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.today_moredays a:last-child {
+  color: #bcbcbc;
+  margin-right: 20px;
+}
