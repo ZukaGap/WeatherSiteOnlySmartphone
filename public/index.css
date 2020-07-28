@@ -1,11 +1,9 @@
 body,
-html {
-    background-color: #559bf5;
-    margin: 0;
-    padding: 0;
-}
-
+html,
 #root {
-    width: 100%;
-    overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #559bf5;
+  overflow: hidden;
 }
